@@ -1,5 +1,0 @@
-mv zsh ~/.config/
-ls
-exit
-hello
-clear
