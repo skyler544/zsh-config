@@ -1,0 +1,31 @@
+export FZF_DEFAULT_OPTS="--border=sharp --prompt='❯ ' --pointer='-' --no-info --no-color --reverse --no-mouse"
+
+alias drive='sudo mount /dev/sdb1 /home/drive'
+alias win='sudo mount /dev/sda4 /home/win'
+
+alias leave='openbox --exit'
+alias grep="grep --color=auto"
+alias ls="lsd"
+alias fr='file-roller'
+alias za='zathura'
+alias e='macs'
+alias ex='chmod +x'
+alias neofetch='neofetch --disable gpu --color_blocks off'
+
+alias search='pacman -Ss'
+alias install='sudo pacman -S'
+alias remove='sudo pacman -Rns'
+alias update='yay -Syu'
+
+alias kz='killall zoom'
+alias kk='killall kitty'
+
+alias connect='piactl connect'
+alias disconnect='piactl disconnect'
+alias pi='piactl get vpnip'
+alias pf='piactl get portforward'
+
+alias down='aria2c -x 4 --async-dns=false' \
+'  --auto-file-renaming=false --allow-overwrite=false'
+
+alias xws='sudo /opt/lampp/xampp start'
