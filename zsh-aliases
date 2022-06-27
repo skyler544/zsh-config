@@ -11,6 +11,7 @@ alias za='zathura'
 alias e='macs'
 alias ex='chmod +x'
 alias neofetch='neofetch --disable gpu --color_blocks off'
+alias cdd='cd ~/downloads'
 
 alias search='pacman -Ss'
 alias install='sudo pacman -S'
@@ -25,7 +26,6 @@ alias disconnect='piactl disconnect'
 alias pi='piactl get vpnip'
 alias pf='piactl get portforward'
 
-alias down='aria2c -x 4 --async-dns=false' \
-'  --auto-file-renaming=false --allow-overwrite=false'
+alias down='aria2c -x 4 --async-dns=false --auto-file-renaming=false --allow-overwrite=false'
 
-alias xws='sudo /opt/lampp/xampp start'
+alias xws='sudo systemctl start xampp.service'
